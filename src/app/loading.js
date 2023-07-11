@@ -3,6 +3,6 @@ import React from 'react'
 
 export default function Loading() {
   return (
-    <div>.......loading</div>
+    <div className='bg-red-400 sm:bg-red-300'>.......loading</div>
   )
 }

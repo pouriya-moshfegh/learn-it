@@ -1,9 +1,8 @@
-"use client";
+
 import "./globals.css";
 import { Inter } from "next/font/google";
 import ReduxProvider from "@/Redux/Provider";
-import { Suspense } from "react";
-import Loading from "./loading";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
