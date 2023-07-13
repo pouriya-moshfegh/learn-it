@@ -1,6 +1,9 @@
 'use client'
 import Image from "next/image";
+import NavBar from "@/components/container/navbar/NavBar";
 
 export default function Home() {
-  return <main className="">Home page</main>;
+  return <main className="">
+    <NavBar/>
+  </main>;
 }

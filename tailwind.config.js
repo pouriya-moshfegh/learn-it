@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        brown: "#000"
+        primary_bg: "#FFFAEF",
+        orange_c:"#FF7132"
       },
       screens: {
         xsm: "400px",
