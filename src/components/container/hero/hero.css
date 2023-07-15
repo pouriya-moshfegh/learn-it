@@ -1,0 +1,20 @@
+.hero__title::before {
+  content: "";
+  margin:0 4px;
+  display: inline-block;
+  background-color: #8140ff;
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+}
+.title__bg::before {
+  content: "";
+  margin:0 4px;
+  position:absolute;
+  display: inline-block;
+  background-color: #fff;
+  height: 35px;
+  width: 100%;
+  z-index: -1 ;
+  bottom:0;
+}

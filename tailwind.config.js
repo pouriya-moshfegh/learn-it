@@ -9,7 +9,10 @@ module.exports = {
     extend: {
       colors: {
         primary_bg: "#FFFAEF",
-        orange_c:"#FF7132"
+        orange_c:"#FF7132",
+        gray_c:"#555555",
+        purple_c:"#8140FF",
+        purple_b:"#7B5896",
       },
       screens: {
         xsm: "400px",
