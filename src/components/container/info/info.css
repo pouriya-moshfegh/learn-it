@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .info__btn {
+    @apply shadow-md rounded-full flex justify-center items-center w-[45px] h-[45px] md:w-[70px] md:h-[70px];
+  }
+}
